@@ -40,6 +40,9 @@ about what happened.
 
 | Release date | JDBC Importer version | Elasticsearch version |
 | -------------| ----------------------| ----------------------|
+| Jul  6 2016  | 2.3.3.1               | 2.3.3                 |
+| May 28 2016  | 2.3.3.0               | 2.3.3                 |
+| May 27 2016  | 2.3.2.0               | 2.3.2                 |
 | Apr  9 2016  | 2.3.1.0               | 2.3.1                 |
 | Apr  9 2016  | 2.2.1.0               | 2.2.1                 |
 | Feb  5 2016  | 2.2.0.0               | 2.2.0                 |
@@ -57,7 +60,7 @@ about what happened.
 
 JDBC importer 2.3.1.0
 
-`http://xbib.org/repository/org/xbib/elasticsearch/importer/elasticsearch-jdbc/2.3.1.0/elasticsearch-jdbc-2.3.1.0-dist.zip`
+`http://xbib.org/repository/org/xbib/elasticsearch/importer/elasticsearch-jdbc/2.3.3.1/elasticsearch-jdbc-2.3.3.1-dist.zip`
 
 ## Installation
 
@@ -270,7 +273,7 @@ Quartz cron expression format (see below for syntax)
 
 `max_bulk_actions` - the length of each bulk index request submitted (default: 10000)
 
-`max_concurrrent_bulk_requests` - the maximum number of concurrent bulk requests (default: 2 * number of CPU cores)
+`max_concurrent_bulk_requests` - the maximum number of concurrent bulk requests (default: 2 * number of CPU cores)
 
 `max_bulk_volume` - a byte size parameter for the maximum volume allowed for a bulk request (default: "10m")
 
